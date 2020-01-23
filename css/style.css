@@ -1,0 +1,679 @@
+/*---------------------------- Шрифты ----------------------------------*/
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-MediumItalic.eot');
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'),
+        url('../fonts/Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-MediumItalic.woff') format('woff'),
+        url('../fonts/Roboto-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Italic.eot');
+    src: local('Roboto Italic'), local('Roboto-Italic'),
+        url('../fonts/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Italic.woff') format('woff'),
+        url('../fonts/Roboto-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.eot');
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.eot');
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Medium.woff') format('woff'),
+        url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-BoldItalic.eot');
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+        url('../fonts/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-BoldItalic.woff') format('woff'),
+        url('../fonts/Roboto-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-ThinItalic.eot');
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'),
+        url('../fonts/Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-ThinItalic.woff') format('woff'),
+        url('../fonts/Roboto-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.eot');
+    src: local('Roboto Black'), local('Roboto-Black'),
+        url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Black.woff') format('woff'),
+        url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.eot');
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Light.woff') format('woff'),
+        url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-LightItalic.eot');
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
+        url('../fonts/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-LightItalic.woff') format('woff'),
+        url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-BlackItalic.eot');
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'),
+        url('../fonts/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-BlackItalic.woff') format('woff'),
+        url('../fonts/Roboto-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Thin.eot');
+    src: local('Roboto Thin'), local('Roboto-Thin'),
+        url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Thin.woff') format('woff'),
+        url('../fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+/* -------------------------------- Спецификация -------------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    line-height: 28px;
+    overflow-x: hidden!important;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 45px;
+    color: #fff;
+    line-height: 46px;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: left;
+    line-height: 46px;
+    font-weight: 500;
+    font-size: 40px;
+    color: #333333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0C384E;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-size: 21px;
+    color: #fff;
+}
+
+h5 {
+    font-size: 18px;
+    color: #070707;
+}
+
+div, section, form, button, span, p {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
+
+/*---------------- Header -----------------*/
+
+.header {
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 160px;
+    margin-right: 55px;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.logo a {
+    transition: all .5s ease;
+}
+
+.logo a:hover {
+    opacity: 0.6;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    margin: 0 25px;
+}
+
+.menu-item a {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #333333;
+    position: relative;
+}
+
+.menu-item a:before {
+    content: '';
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #333333;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    transform: scale(0);
+}
+
+.menu-item a:hover:before {
+    transform: scale(1);
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.phone img {
+    width: 15px;
+    margin-right: 10px;
+    filter: invert(78%) sepia(50%) saturate(579%) hue-rotate(64deg) brightness(99%) contrast(85%);
+}
+
+.phone a {
+    font-size: 22px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.header-contacts {
+    margin-left: auto;
+}
+
+.mail a {
+    font-size: 22px;
+    font-weight: 300;
+    color: #333333;
+    position: relative;
+}
+
+.mail a:before {
+    content: '';
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #333333;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    transform: scale(0);
+}
+
+.mail a:hover:before {
+    transform: scale(1);
+}
+
+/*---------------- Offer -----------------*/
+
+.offer {
+    background: url('../img/main-bg.jpg') no-repeat center top / cover;
+    padding-bottom: 30px;
+}
+
+.offer-title {
+    padding-top: 270px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.btn {
+    width: 260px;
+    height: 60px;
+    color: #fff;
+    background: #62e96b;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 100px;
+    border-radius: 0;
+    line-height: 50px;
+    transition: all .5s ease;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #4cb453;
+}
+
+.arrow-down {
+    display: block;
+    margin: auto;
+    text-align: center;
+    transition: all .5s ease;
+}
+
+.arrow-down:hover {
+    opacity: 0.6;
+}
+
+/*---------------- About -----------------*/
+
+.about {
+    padding: 70px 0;
+}
+
+.about-content_text {
+    font-size: 18px;
+    line-height: 33px;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-content_left {
+    max-width: 450px;
+}
+
+.about-content_right {
+    max-width: 620px;
+}
+
+.about-photo_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-photo_item {
+    margin-bottom: 40px;
+}
+
+.about-photo_item:last-child {
+    margin-bottom: 0;
+}
+
+.about-content_left .btn {
+    margin-left: 0;
+}
+
+.point {
+    background: #f5f5f5;
+}
+
+.point-content {
+    display: flex;
+}
+
+.point-content_left {
+    padding: 152px 0;
+    width: 470px;
+}
+
+.point-content_left p {
+    line-height: 27px;
+}
+
+.point-content_right {
+    position: absolute;
+    right: 0;
+}
+
+/*------------------ Buyers ----------------*/
+
+.buyers {
+    padding: 100px 0;
+}
+
+.buyers-item_title {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 35px auto 0;
+    max-width: 200px;
+    line-height: 40px;
+}
+
+.buyers-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.buyers-item {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.more {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: 65px;
+}
+
+/*------------------ Tenants ----------------*/
+
+.tenants {
+    background: #f5f5f5;
+    padding: 90px 0;
+}
+
+.tenants-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.tenants-item img {
+    height: 80px;
+    margin: 0 auto 25px;
+    text-align: center;
+    display: block;
+}
+
+.tenants-item_text {
+    text-align: center;
+    line-height: 27px;
+    max-width: 250px;
+}
+
+.tenants-list2 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tenants-list2_item ul {
+    padding-left: 30px;
+}
+
+.tenants-list2_item ul li {
+    position: relative;
+}
+
+.tenants-list2_item ul li span {
+    font-weight: bold;
+}
+
+.tenants-item2:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #62e96b;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*--------------------- Contacts -----------------------*/
+
+.contacts {
+    padding: 90px 0;
+}
+
+.address, 
+.telephone,
+.contacts-mail,
+.rent {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    max-width: 430px;
+}
+
+.address span, 
+.telephone span,
+.contacts-mail span,
+.rent span {
+    font-weight: bold;
+}
+
+.contacts-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    padding: 30px;
+    background: #f5f5f5;
+    width: 400px;
+}
+
+.form_title {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form input {
+    padding: 15px 20px;
+    border: 0;
+    background: #fff;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    transition: all .2s ease;
+}
+
+.form input:hover {
+    background: #fafafa;
+}
+
+.form input:focus {
+    border: 1px solid #4cb453;
+}
+
+.form .btn {
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.telephone a {
+    color: #333333;
+}
+
+.contacts-mail a {
+    color: #333333;
+    position: relative;
+}
+
+.rent a {
+    color: #333333;
+}
+
+.contacts-mail a:before {
+    content: '';
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #333333;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    transform: scale(0);
+}
+
+.contacts-mail a:hover:before {
+    transform: scale(1);
+}
+
+/*------------------- Footer ----------------*/
+
+.footer {
+    padding: 40px 0;
+    background: #006889;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.footer-phone a {
+    color: #fff;
+}
+
+.footer-mail a {
+    color: #fff;
+    position: relative;
+}
+
+.footer-mail a:before {
+    content: '';
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    transform: scale(0);
+}
+
+.footer-mail a:hover:before {
+    transform: scale(1);
+}

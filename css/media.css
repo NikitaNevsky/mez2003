@@ -1,0 +1,331 @@
+
+@media screen and (min-width: 1600px) {
+
+}
+
+@media screen and (max-width: 1500px) {
+    
+}
+
+@media screen and (max-width: 1450px) {
+    
+}
+
+@media screen and (max-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 1350px) {
+    
+}
+
+@media screen and (max-width: 1300px) {
+    
+}
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 1100px) {
+    
+}
+
+@media screen and (max-width: 1025px) {
+    
+}
+
+@media screen and (max-width: 930px) {
+    
+}
+
+@media screen and (max-width: 850px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+}
+
+@media screen and (max-width: 769px) {
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .phone {
+        margin-bottom: 0;
+    }
+
+    .offer-title {
+        padding-top: 70px;
+        line-height: 55px;
+    }
+
+    .about {
+        padding-bottom: 0;
+    }
+
+    .about-content {
+        display: block;
+    }
+
+    .about-content_right {
+        margin: auto;
+    }
+
+    .point-content_right {
+        position: relative;
+    }
+
+    .point-content {
+        display: block;
+    }
+
+    .point-content_left {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .point-content_left h2 {
+        margin-bottom: 10px;
+    }
+
+    .point-content_right img {
+        width: 100%;
+    }
+
+    .point {
+        padding-bottom: 50px;
+    }
+
+    .buyers-item img {
+        height: 100px;
+    }
+
+    .buyers-item_title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .more {
+        font-size: 45px;
+        margin-top: 40px;
+    }
+
+    .tenants-item {
+        width: 25%;
+    }
+
+    .tenants-item_text {
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+    .contacts-content {
+        display: block;
+    }
+
+    .address, .telephone, .contacts-mail, .rent {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contacts {
+        padding: 70px 0;
+    }
+
+    .contacts-content_left {
+        margin-bottom: 30px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    
+}
+
+@media screen and (max-width: 660px) {
+    .offer-title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+    .btn {
+        margin: 0 auto 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .about {
+        padding: 40px 0;
+    }
+
+    .about-content_text {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+
+    .about-photo_list {
+        display: none;
+    }
+
+    .about-content_left .btn {
+        margin-left: auto;
+        margin-bottom: 0;
+    }
+
+    .buyers {
+        padding: 40px 0;
+    }
+
+    .buyers-list {
+        margin-top: 30px;
+        display: block;
+    }
+
+    .buyers-item {
+        margin: 0 auto 30px;
+    }
+
+    .buyers-item_title {
+        font-size: 25px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+
+    .more {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .tenants {
+        padding: 40px 0;
+    }
+
+    .tenants-list {
+        margin-top: 25px;
+        display: block;
+    }
+
+    .tenants-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .tenants-item_text {
+        margin: auto;
+    }
+
+    .tenants-list2 {
+        margin-top: 40px;
+        display: block;
+    }
+
+    .tenants-list2_item {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .tenants-item2:before {
+        content: none;
+    }
+
+    .contacts {
+        padding: 40px 0;
+    }
+
+    .footer-content {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   
+}
+
+@media screen and (max-width: 580px) {
+   
+}
+
+@media screen and (max-width: 380px) {
+    .phone a {
+        font-size: 16px;
+    }
+
+    .mail a {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 80px;
+        margin-right: 0;
+    }
+
+    .offer-title {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .arrow-down img {
+        width: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .point-content_left {
+        padding: 40px 0;
+    }
+
+    .address, .telephone, .contacts-mail, .rent {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .form_title {
+        font-size: 22px;
+    }
+
+    .form input {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .form .btn {
+        width: 100%;
+    }
+
+    .buyers-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .buyers-item_title {
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    
+}
